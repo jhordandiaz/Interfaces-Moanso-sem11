@@ -47,5 +47,45 @@ namespace SistemaAlmacen
             vd.ShowDialog();
             this.Show();
         }
+
+        private void btnProveedor_Click(object sender, EventArgs e)
+        {
+            Proveedor pr = new Proveedor();
+            this.Hide();
+            pr.ShowDialog();
+            this.Show();
+        }
+
+        private void btnCliente_Click(object sender, EventArgs e)
+        {
+            Cliente cl = new Cliente();
+            this.Hide();
+            cl.ShowDialog();
+            this.Show();
+        }
+
+        private void btnOrdencompra_Click(object sender, EventArgs e)
+        {
+            OrdenCompra oc = new OrdenCompra();
+            this.Hide();
+            oc.ShowDialog();
+            this.Show();
+        }
+
+        private void btnSalida_Click(object sender, EventArgs e)
+        {
+            SalidaProducto sp = new SalidaProducto();
+            this.Hide();
+            sp.ShowDialog();
+            this.Show();
+        }
+
+        private void btnTipoproducto_Click(object sender, EventArgs e)
+        {
+            TipoProducto tp = new TipoProducto();
+            this.Hide();
+            tp.ShowDialog();
+            this.Show();
+        }
     }
 }
