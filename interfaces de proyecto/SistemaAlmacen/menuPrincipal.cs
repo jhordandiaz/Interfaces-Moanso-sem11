@@ -87,5 +87,13 @@ namespace SistemaAlmacen
             tp.ShowDialog();
             this.Show();
         }
+
+        private void btnMetodopago_Click(object sender, EventArgs e)
+        {
+            MetodoPago mp = new MetodoPago();
+            this.Hide();
+            mp.ShowDialog();
+            this.Show();
+        }
     }
 }

@@ -162,6 +162,7 @@
             this.btnMetodopago.TabIndex = 1;
             this.btnMetodopago.Text = "Metodo de pago";
             this.btnMetodopago.UseVisualStyleBackColor = true;
+            this.btnMetodopago.Click += new System.EventHandler(this.btnMetodopago_Click);
             // 
             // btnProveedor
             // 
