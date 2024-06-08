@@ -31,5 +31,13 @@ namespace SistemaAlmacen
             di.ShowDialog();
             this.Show();
         }
+
+        private void btnTipoinsumo_Click(object sender, EventArgs e)
+        {
+            TipoInsumos ti = new TipoInsumos();
+            this.Hide();
+            ti.ShowDialog();
+            this.Show();
+        }
     }
 }
