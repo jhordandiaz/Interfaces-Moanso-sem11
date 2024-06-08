@@ -1,0 +1,17 @@
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\bin\Debug\SistemaAlmacen.exe.config
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\bin\Debug\SistemaAlmacen.exe
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\bin\Debug\SistemaAlmacen.pdb
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\obj\Debug\SistemaAlmacen.Properties.Resources.resources
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\obj\Debug\SistemaAlmacen.exe
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\obj\Debug\SistemaAlmacen.pdb
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\obj\Debug\SistemaAlmacen.EntradaInsumos.resources
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\obj\Debug\SistemaAlmacen.DevolucionInsumos.resources
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\obj\Debug\SistemaAlmacen.Cliente.resources
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\obj\Debug\SistemaAlmacen.MetodoPago.resources
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\obj\Debug\SistemaAlmacen.Proveedor.resources
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\obj\Debug\SistemaAlmacen.menuPrincipal.resources
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\obj\Debug\SistemaAlmacen.OrdenCompra.resources
+D:\8 ejercicios - moanso\interfaces de proyecto\SistemaAlmacen\obj\Debug\SistemaAlmacen.SalidaProducto.resources
