@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\Interfaces-Moanso-sem11\\interfaces de proyecto\\SistemaAlmacen\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B1E8C1F6-8061-4CAB-B9AD-1D0655D0EAFD}|CapaPresentacion.csproj|c:\\users\\usuario\\source\\repos\\interfaces-moanso-sem11\\interfaces de proyecto\\sistemaalmacen\\ventadirecta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1E8C1F6-8061-4CAB-B9AD-1D0655D0EAFD}|CapaPresentacion.csproj|solutionrelative:ventadirecta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E8C1F6-8061-4CAB-B9AD-1D0655D0EAFD}|CapaPresentacion.csproj|C:\\Users\\Usuario\\source\\repos\\Interfaces-Moanso-sem11\\interfaces de proyecto\\SistemaAlmacen\\tipoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1E8C1F6-8061-4CAB-B9AD-1D0655D0EAFD}|CapaPresentacion.csproj|solutionrelative:tipoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B1E8C1F6-8061-4CAB-B9AD-1D0655D0EAFD}|CapaPresentacion.csproj|c:\\users\\usuario\\source\\repos\\interfaces-moanso-sem11\\interfaces de proyecto\\sistemaalmacen\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1E8C1F6-8061-4CAB-B9AD-1D0655D0EAFD}|CapaPresentacion.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +19,8 @@
       "RelativeMoniker": "D:0:0:{B1E8C1F6-8061-4CAB-B9AD-1D0655D0EAFD}|CapaPresentacion.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1E8C1F6-8061-4CAB-B9AD-1D0655D0EAFD}|CapaPresentacion.csproj|C:\\Users\\Usuario\\source\\repos\\Interfaces-Moanso-sem11\\interfaces de proyecto\\SistemaAlmacen\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B1E8C1F6-8061-4CAB-B9AD-1D0655D0EAFD}|CapaPresentacion.csproj|solutionrelative:cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1E8C1F6-8061-4CAB-B9AD-1D0655D0EAFD}|CapaPresentacion.csproj|C:\\Users\\Usuario\\source\\repos\\Interfaces-Moanso-sem11\\interfaces de proyecto\\SistemaAlmacen\\tipoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B1E8C1F6-8061-4CAB-B9AD-1D0655D0EAFD}|CapaPresentacion.csproj|solutionrelative:tipoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B1E8C1F6-8061-4CAB-B9AD-1D0655D0EAFD}|CapaPresentacion.csproj|c:\\users\\usuario\\source\\repos\\interfaces-moanso-sem11\\interfaces de proyecto\\sistemaalmacen\\ventadirecta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E8C1F6-8061-4CAB-B9AD-1D0655D0EAFD}|CapaPresentacion.csproj|solutionrelative:ventadirecta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,61 +30,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VentaDirecta.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Interfaces-Moanso-sem11\\interfaces de proyecto\\SistemaAlmacen\\VentaDirecta.cs",
+              "RelativeDocumentMoniker": "VentaDirecta.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Interfaces-Moanso-sem11\\interfaces de proyecto\\SistemaAlmacen\\VentaDirecta.cs",
+              "RelativeToolTip": "VentaDirecta.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T02:04:56.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "VentaDirecta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Interfaces-Moanso-sem11\\interfaces de proyecto\\SistemaAlmacen\\VentaDirecta.cs",
+              "RelativeDocumentMoniker": "VentaDirecta.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Interfaces-Moanso-sem11\\interfaces de proyecto\\SistemaAlmacen\\VentaDirecta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "VentaDirecta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T01:57:06.286Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "menuPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Interfaces-Moanso-sem11\\interfaces de proyecto\\SistemaAlmacen\\menuPrincipal.cs",
               "RelativeDocumentMoniker": "menuPrincipal.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Interfaces-Moanso-sem11\\interfaces de proyecto\\SistemaAlmacen\\menuPrincipal.cs",
               "RelativeToolTip": "menuPrincipal.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAqwB8AAAAYAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAywCsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T01:05:23.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "menuPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Interfaces-Moanso-sem11\\interfaces de proyecto\\SistemaAlmacen\\menuPrincipal.cs",
               "RelativeDocumentMoniker": "menuPrincipal.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Interfaces-Moanso-sem11\\interfaces de proyecto\\SistemaAlmacen\\menuPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "menuPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T01:05:10.84Z"
+              "WhenOpened": "2024-06-08T01:05:10.84Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Interfaces-Moanso-sem11\\interfaces de proyecto\\SistemaAlmacen\\Cliente.cs",
-              "RelativeDocumentMoniker": "Cliente.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Interfaces-Moanso-sem11\\interfaces de proyecto\\SistemaAlmacen\\Cliente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Cliente.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T01:05:04.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TipoProducto.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Interfaces-Moanso-sem11\\interfaces de proyecto\\SistemaAlmacen\\TipoProducto.cs",
               "RelativeDocumentMoniker": "TipoProducto.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Interfaces-Moanso-sem11\\interfaces de proyecto\\SistemaAlmacen\\TipoProducto.cs [Dise\u00F1o]",
               "RelativeToolTip": "TipoProducto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T00:33:42.535Z"
+              "WhenOpened": "2024-06-08T00:33:42.535Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

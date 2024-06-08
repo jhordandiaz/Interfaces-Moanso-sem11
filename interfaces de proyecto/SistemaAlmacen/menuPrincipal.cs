@@ -39,5 +39,13 @@ namespace SistemaAlmacen
             ti.ShowDialog();
             this.Show();
         }
+
+        private void btnVentadirecta_Click(object sender, EventArgs e)
+        {
+            VentaDirecta vd = new VentaDirecta();
+            this.Hide();
+            vd.ShowDialog();
+            this.Show();
+        }
     }
 }

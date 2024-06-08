@@ -71,6 +71,7 @@
             this.btnVentadirecta.TabIndex = 4;
             this.btnVentadirecta.Text = "Realizar venta directa";
             this.btnVentadirecta.UseVisualStyleBackColor = true;
+            this.btnVentadirecta.Click += new System.EventHandler(this.btnVentadirecta_Click);
             // 
             // btnSalida
             // 

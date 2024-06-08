@@ -151,6 +151,9 @@
     <EmbeddedResource Include="TipoProducto.resx">
       <DependentUpon>TipoProducto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="VentaDirecta.resx">
+      <DependentUpon>VentaDirecta.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
