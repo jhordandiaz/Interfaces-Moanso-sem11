@@ -148,6 +148,9 @@
     <EmbeddedResource Include="SalidaProducto.resx">
       <DependentUpon>SalidaProducto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TipoInsumos.resx">
+      <DependentUpon>TipoInsumos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TipoProducto.resx">
       <DependentUpon>TipoProducto.cs</DependentUpon>
     </EmbeddedResource>
