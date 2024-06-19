@@ -39,9 +39,9 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -156,18 +156,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Opciones";
             // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.OrangeRed;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(987, 567);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(130, 36);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Salir";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.OrangeRed;
@@ -177,7 +165,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(102, 37);
             this.button3.TabIndex = 2;
-            this.button3.Text = "Eliminar";
+            this.button3.Text = "Inhabilitar";
             this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
@@ -191,6 +179,18 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Actualizar";
             this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.OrangeRed;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.Location = new System.Drawing.Point(987, 567);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(130, 36);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "Salir";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
