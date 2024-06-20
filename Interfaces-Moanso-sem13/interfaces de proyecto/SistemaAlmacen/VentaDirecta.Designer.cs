@@ -31,38 +31,38 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lbl_Precio = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txt_Cantidad = new System.Windows.Forms.TextBox();
+            this.cmb_MtdPago = new System.Windows.Forms.ComboBox();
+            this.cmb_Seleccion = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btn_Buscar = new System.Windows.Forms.Button();
+            this.dtgv_VentaDirecta = new System.Windows.Forms.DataGridView();
+            this.btn_Volver = new System.Windows.Forms.Button();
+            this.btn_Registrar = new System.Windows.Forms.Button();
+            this.btn_Anular = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_NCliente = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_DNI = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txt_ACliente = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.lbl_Fecha = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgv_VentaDirecta)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
+            this.label2.Font = new System.Drawing.Font("Bodoni MT", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(387, 30);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 23);
+            this.label2.Size = new System.Drawing.Size(170, 34);
             this.label2.TabIndex = 1;
             this.label2.Text = "Fecha Actual";
             // 
@@ -79,11 +79,11 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.lbl_Precio);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.txt_Cantidad);
+            this.groupBox1.Controls.Add(this.cmb_MtdPago);
+            this.groupBox1.Controls.Add(this.cmb_Seleccion);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
@@ -93,28 +93,16 @@
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             // 
-            // button1
+            // lbl_Precio
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button1.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(166, 73);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(131, 40);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label7.Location = new System.Drawing.Point(286, 144);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(251, 20);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "Visualizador del precio del producto";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.lbl_Precio.AutoSize = true;
+            this.lbl_Precio.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lbl_Precio.Location = new System.Drawing.Point(299, 136);
+            this.lbl_Precio.Name = "lbl_Precio";
+            this.lbl_Precio.Size = new System.Drawing.Size(251, 20);
+            this.lbl_Precio.TabIndex = 9;
+            this.lbl_Precio.Text = "Visualizador del precio del producto";
+            this.lbl_Precio.Click += new System.EventHandler(this.lbl_Precio_Click);
             // 
             // label6
             // 
@@ -126,28 +114,28 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "Precio del producto";
             // 
-            // textBox1
+            // txt_Cantidad
             // 
-            this.textBox1.Location = new System.Drawing.Point(272, 57);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(133, 22);
-            this.textBox1.TabIndex = 7;
+            this.txt_Cantidad.Location = new System.Drawing.Point(272, 57);
+            this.txt_Cantidad.Name = "txt_Cantidad";
+            this.txt_Cantidad.Size = new System.Drawing.Size(133, 22);
+            this.txt_Cantidad.TabIndex = 7;
             // 
-            // comboBox2
+            // cmb_MtdPago
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(21, 161);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(205, 24);
-            this.comboBox2.TabIndex = 6;
+            this.cmb_MtdPago.FormattingEnabled = true;
+            this.cmb_MtdPago.Location = new System.Drawing.Point(21, 161);
+            this.cmb_MtdPago.Name = "cmb_MtdPago";
+            this.cmb_MtdPago.Size = new System.Drawing.Size(205, 24);
+            this.cmb_MtdPago.TabIndex = 6;
             // 
-            // comboBox1
+            // cmb_Seleccion
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(21, 53);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(205, 24);
-            this.comboBox1.TabIndex = 5;
+            this.cmb_Seleccion.FormattingEnabled = true;
+            this.cmb_Seleccion.Location = new System.Drawing.Point(21, 53);
+            this.cmb_Seleccion.Name = "cmb_Seleccion";
+            this.cmb_Seleccion.Size = new System.Drawing.Size(205, 24);
+            this.cmb_Seleccion.TabIndex = 5;
             // 
             // label5
             // 
@@ -169,53 +157,69 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Seleccione método de pago";
             // 
-            // dataGridView1
+            // btn_Buscar
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.GridColor = System.Drawing.Color.Goldenrod;
-            this.dataGridView1.Location = new System.Drawing.Point(23, 409);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(722, 288);
-            this.dataGridView1.TabIndex = 11;
+            this.btn_Buscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_Buscar.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_Buscar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Buscar.Location = new System.Drawing.Point(166, 73);
+            this.btn_Buscar.Name = "btn_Buscar";
+            this.btn_Buscar.Size = new System.Drawing.Size(131, 40);
+            this.btn_Buscar.TabIndex = 10;
+            this.btn_Buscar.Text = "Buscar";
+            this.btn_Buscar.UseVisualStyleBackColor = false;
+            this.btn_Buscar.Click += new System.EventHandler(this.btn_Buscar_Click);
             // 
-            // button2
+            // dtgv_VentaDirecta
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button2.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(591, 363);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(131, 40);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Salir";
-            this.button2.UseVisualStyleBackColor = false;
+            this.dtgv_VentaDirecta.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dtgv_VentaDirecta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgv_VentaDirecta.GridColor = System.Drawing.Color.Goldenrod;
+            this.dtgv_VentaDirecta.Location = new System.Drawing.Point(23, 409);
+            this.dtgv_VentaDirecta.Name = "dtgv_VentaDirecta";
+            this.dtgv_VentaDirecta.RowHeadersWidth = 51;
+            this.dtgv_VentaDirecta.RowTemplate.Height = 24;
+            this.dtgv_VentaDirecta.Size = new System.Drawing.Size(722, 288);
+            this.dtgv_VentaDirecta.TabIndex = 11;
             // 
-            // button3
+            // btn_Volver
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button3.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Location = new System.Drawing.Point(591, 201);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(131, 40);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Registrar";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn_Volver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_Volver.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_Volver.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Volver.Location = new System.Drawing.Point(591, 363);
+            this.btn_Volver.Name = "btn_Volver";
+            this.btn_Volver.Size = new System.Drawing.Size(131, 40);
+            this.btn_Volver.TabIndex = 11;
+            this.btn_Volver.Text = "Volver";
+            this.btn_Volver.UseVisualStyleBackColor = false;
+            this.btn_Volver.Click += new System.EventHandler(this.btn_Volver_Click);
             // 
-            // button4
+            // btn_Registrar
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button4.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
-            this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button4.Location = new System.Drawing.Point(591, 280);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(131, 40);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "Anular";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btn_Registrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_Registrar.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_Registrar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Registrar.Location = new System.Drawing.Point(591, 201);
+            this.btn_Registrar.Name = "btn_Registrar";
+            this.btn_Registrar.Size = new System.Drawing.Size(131, 40);
+            this.btn_Registrar.TabIndex = 12;
+            this.btn_Registrar.Text = "Registrar";
+            this.btn_Registrar.UseVisualStyleBackColor = false;
+            this.btn_Registrar.Click += new System.EventHandler(this.btn_Registrar_Click);
+            // 
+            // btn_Anular
+            // 
+            this.btn_Anular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_Anular.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_Anular.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Anular.Location = new System.Drawing.Point(591, 280);
+            this.btn_Anular.Name = "btn_Anular";
+            this.btn_Anular.Size = new System.Drawing.Size(131, 40);
+            this.btn_Anular.TabIndex = 13;
+            this.btn_Anular.Text = "Anular";
+            this.btn_Anular.UseVisualStyleBackColor = false;
+            this.btn_Anular.Click += new System.EventHandler(this.btn_Anular_Click);
             // 
             // label9
             // 
@@ -227,44 +231,34 @@
             this.label9.TabIndex = 10;
             this.label9.Text = "Nombre Cliente:";
             // 
-            // textBox2
+            // txt_NCliente
             // 
-            this.textBox2.Location = new System.Drawing.Point(6, 44);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(133, 22);
-            this.textBox2.TabIndex = 11;
+            this.txt_NCliente.Location = new System.Drawing.Point(6, 44);
+            this.txt_NCliente.Name = "txt_NCliente";
+            this.txt_NCliente.Size = new System.Drawing.Size(133, 22);
+            this.txt_NCliente.TabIndex = 11;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.txt_DNI);
             this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.txt_ACliente);
             this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.txt_NCliente);
             this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.btn_Buscar);
             this.groupBox2.Location = new System.Drawing.Point(23, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(312, 174);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
             // 
-            // label8
+            // txt_DNI
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
-            this.label8.Location = new System.Drawing.Point(6, 69);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(83, 23);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "Apellido:";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(6, 91);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(133, 22);
-            this.textBox3.TabIndex = 13;
+            this.txt_DNI.Location = new System.Drawing.Point(10, 140);
+            this.txt_DNI.Name = "txt_DNI";
+            this.txt_DNI.Size = new System.Drawing.Size(133, 22);
+            this.txt_DNI.TabIndex = 15;
             // 
             // label10
             // 
@@ -276,19 +270,32 @@
             this.label10.TabIndex = 14;
             this.label10.Text = "DNI:";
             // 
-            // textBox4
+            // txt_ACliente
             // 
-            this.textBox4.Location = new System.Drawing.Point(10, 140);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(133, 22);
-            this.textBox4.TabIndex = 15;
+            this.txt_ACliente.Location = new System.Drawing.Point(6, 91);
+            this.txt_ACliente.Name = "txt_ACliente";
+            this.txt_ACliente.Size = new System.Drawing.Size(133, 22);
+            this.txt_ACliente.TabIndex = 13;
             // 
-            // dateTimePicker1
+            // label8
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(391, 81);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker1.TabIndex = 16;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
+            this.label8.Location = new System.Drawing.Point(6, 69);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(83, 23);
+            this.label8.TabIndex = 12;
+            this.label8.Text = "Apellido:";
+            // 
+            // lbl_Fecha
+            // 
+            this.lbl_Fecha.AutoSize = true;
+            this.lbl_Fecha.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lbl_Fecha.Location = new System.Drawing.Point(420, 81);
+            this.lbl_Fecha.Name = "lbl_Fecha";
+            this.lbl_Fecha.Size = new System.Drawing.Size(195, 20);
+            this.lbl_Fecha.TabIndex = 16;
+            this.lbl_Fecha.Text = "Visualizador de fecha actual";
             // 
             // VentaDirecta
             // 
@@ -296,19 +303,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.OldLace;
             this.ClientSize = new System.Drawing.Size(758, 704);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.lbl_Fecha);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btn_Anular);
+            this.Controls.Add(this.btn_Registrar);
+            this.Controls.Add(this.btn_Volver);
+            this.Controls.Add(this.dtgv_VentaDirecta);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
             this.Name = "VentaDirecta";
             this.Text = "VentaDirecta";
+            this.Load += new System.EventHandler(this.VentaDirecta_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgv_VentaDirecta)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
@@ -320,25 +328,25 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lbl_Precio;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox txt_Cantidad;
+        private System.Windows.Forms.ComboBox cmb_MtdPago;
+        private System.Windows.Forms.ComboBox cmb_Seleccion;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.DataGridView dtgv_VentaDirecta;
+        private System.Windows.Forms.Button btn_Buscar;
+        private System.Windows.Forms.Button btn_Volver;
+        private System.Windows.Forms.Button btn_Registrar;
+        private System.Windows.Forms.Button btn_Anular;
+        private System.Windows.Forms.TextBox txt_NCliente;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_ACliente;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox txt_DNI;
+        private System.Windows.Forms.Label lbl_Fecha;
     }
 }

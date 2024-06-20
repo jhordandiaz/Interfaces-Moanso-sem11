@@ -31,25 +31,25 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.dpt_FechaM = new System.Windows.Forms.DateTimePicker();
+            this.dtp_FechaR = new System.Windows.Forms.DateTimePicker();
+            this.txt_Stock = new System.Windows.Forms.TextBox();
+            this.txt_NmProducto = new System.Windows.Forms.TextBox();
+            this.cbx_Categoria = new System.Windows.Forms.ComboBox();
+            this.btn_Limpiar = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_Volver = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.lbl_Fecha = new System.Windows.Forms.Label();
+            this.btn_Agregar = new System.Windows.Forms.Button();
+            this.btn_Actualizar = new System.Windows.Forms.Button();
+            this.btn_Eliminar = new System.Windows.Forms.Button();
+            this.dtgv_TipoPrd = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgv_TipoPrd)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -76,12 +76,12 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.groupBox1.Controls.Add(this.dateTimePicker2);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.dpt_FechaM);
+            this.groupBox1.Controls.Add(this.dtp_FechaR);
+            this.groupBox1.Controls.Add(this.txt_Stock);
+            this.groupBox1.Controls.Add(this.txt_NmProducto);
+            this.groupBox1.Controls.Add(this.cbx_Categoria);
+            this.groupBox1.Controls.Add(this.btn_Limpiar);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
@@ -93,53 +93,54 @@
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             // 
-            // dateTimePicker2
+            // dpt_FechaM
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(9, 427);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(251, 22);
-            this.dateTimePicker2.TabIndex = 11;
+            this.dpt_FechaM.Location = new System.Drawing.Point(9, 427);
+            this.dpt_FechaM.Name = "dpt_FechaM";
+            this.dpt_FechaM.Size = new System.Drawing.Size(251, 22);
+            this.dpt_FechaM.TabIndex = 11;
             // 
-            // dateTimePicker1
+            // dtp_FechaR
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(9, 330);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(251, 22);
-            this.dateTimePicker1.TabIndex = 10;
+            this.dtp_FechaR.Location = new System.Drawing.Point(9, 330);
+            this.dtp_FechaR.Name = "dtp_FechaR";
+            this.dtp_FechaR.Size = new System.Drawing.Size(251, 22);
+            this.dtp_FechaR.TabIndex = 10;
             // 
-            // textBox2
+            // txt_Stock
             // 
-            this.textBox2.Location = new System.Drawing.Point(6, 249);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(112, 22);
-            this.textBox2.TabIndex = 9;
+            this.txt_Stock.Location = new System.Drawing.Point(6, 249);
+            this.txt_Stock.Name = "txt_Stock";
+            this.txt_Stock.Size = new System.Drawing.Size(112, 22);
+            this.txt_Stock.TabIndex = 9;
             // 
-            // textBox1
+            // txt_NmProducto
             // 
-            this.textBox1.Location = new System.Drawing.Point(6, 164);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(314, 22);
-            this.textBox1.TabIndex = 8;
+            this.txt_NmProducto.Location = new System.Drawing.Point(6, 164);
+            this.txt_NmProducto.Name = "txt_NmProducto";
+            this.txt_NmProducto.Size = new System.Drawing.Size(314, 22);
+            this.txt_NmProducto.TabIndex = 8;
             // 
-            // comboBox1
+            // cbx_Categoria
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(6, 66);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(314, 24);
-            this.comboBox1.TabIndex = 7;
+            this.cbx_Categoria.FormattingEnabled = true;
+            this.cbx_Categoria.Location = new System.Drawing.Point(6, 66);
+            this.cbx_Categoria.Name = "cbx_Categoria";
+            this.cbx_Categoria.Size = new System.Drawing.Size(314, 24);
+            this.cbx_Categoria.TabIndex = 7;
             // 
-            // button2
+            // btn_Limpiar
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button2.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(99, 522);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(111, 46);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Limpiar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_Limpiar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_Limpiar.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_Limpiar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Limpiar.Location = new System.Drawing.Point(99, 522);
+            this.btn_Limpiar.Name = "btn_Limpiar";
+            this.btn_Limpiar.Size = new System.Drawing.Size(111, 46);
+            this.btn_Limpiar.TabIndex = 6;
+            this.btn_Limpiar.Text = "Limpiar";
+            this.btn_Limpiar.UseVisualStyleBackColor = false;
+            this.btn_Limpiar.Click += new System.EventHandler(this.btn_Limpiar_Click);
             // 
             // label6
             // 
@@ -181,84 +182,90 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Nombre del producto";
             // 
-            // button1
+            // btn_Volver
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button1.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(907, 627);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 46);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Volver";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_Volver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_Volver.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_Volver.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Volver.Location = new System.Drawing.Point(907, 627);
+            this.btn_Volver.Name = "btn_Volver";
+            this.btn_Volver.Size = new System.Drawing.Size(111, 46);
+            this.btn_Volver.TabIndex = 5;
+            this.btn_Volver.Text = "Volver";
+            this.btn_Volver.UseVisualStyleBackColor = false;
+            this.btn_Volver.Click += new System.EventHandler(this.btn_Volver_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(863, 68);
+            this.label7.Font = new System.Drawing.Font("Bodoni MT", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(848, 68);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(121, 23);
+            this.label7.Size = new System.Drawing.Size(170, 34);
             this.label7.TabIndex = 6;
             this.label7.Text = "Fecha Actual";
             // 
-            // label8
+            // lbl_Fecha
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(834, 100);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(175, 16);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Visualizador de fecha actual";
+            this.lbl_Fecha.AutoSize = true;
+            this.lbl_Fecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Fecha.Location = new System.Drawing.Point(872, 113);
+            this.lbl_Fecha.Name = "lbl_Fecha";
+            this.lbl_Fecha.Size = new System.Drawing.Size(220, 20);
+            this.lbl_Fecha.TabIndex = 7;
+            this.lbl_Fecha.Text = "Visualizador de fecha actual";
+            this.lbl_Fecha.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button3
+            // btn_Agregar
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button3.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Location = new System.Drawing.Point(3, 4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(111, 46);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Agregar";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn_Agregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_Agregar.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_Agregar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Agregar.Location = new System.Drawing.Point(3, 4);
+            this.btn_Agregar.Name = "btn_Agregar";
+            this.btn_Agregar.Size = new System.Drawing.Size(111, 46);
+            this.btn_Agregar.TabIndex = 7;
+            this.btn_Agregar.Text = "Agregar";
+            this.btn_Agregar.UseVisualStyleBackColor = false;
+            this.btn_Agregar.Click += new System.EventHandler(this.btn_Agregar_Click);
             // 
-            // button4
+            // btn_Actualizar
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button4.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
-            this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button4.Location = new System.Drawing.Point(159, 4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(111, 46);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "Actualizar";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btn_Actualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_Actualizar.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_Actualizar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Actualizar.Location = new System.Drawing.Point(159, 4);
+            this.btn_Actualizar.Name = "btn_Actualizar";
+            this.btn_Actualizar.Size = new System.Drawing.Size(116, 46);
+            this.btn_Actualizar.TabIndex = 8;
+            this.btn_Actualizar.Text = "Actualizar";
+            this.btn_Actualizar.UseVisualStyleBackColor = false;
+            this.btn_Actualizar.Click += new System.EventHandler(this.btn_Actualizar_Click);
             // 
-            // button5
+            // btn_Eliminar
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button5.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
-            this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button5.Location = new System.Drawing.Point(311, 4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(111, 46);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "Eliminar";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btn_Eliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_Eliminar.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_Eliminar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Eliminar.Location = new System.Drawing.Point(311, 4);
+            this.btn_Eliminar.Name = "btn_Eliminar";
+            this.btn_Eliminar.Size = new System.Drawing.Size(111, 46);
+            this.btn_Eliminar.TabIndex = 9;
+            this.btn_Eliminar.Text = "Eliminar";
+            this.btn_Eliminar.UseVisualStyleBackColor = false;
+            this.btn_Eliminar.Click += new System.EventHandler(this.btn_Eliminar_Click);
             // 
-            // dataGridView1
+            // dtgv_TipoPrd
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.GridColor = System.Drawing.Color.Goldenrod;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 56);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(419, 603);
-            this.dataGridView1.TabIndex = 10;
+            this.dtgv_TipoPrd.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dtgv_TipoPrd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgv_TipoPrd.GridColor = System.Drawing.Color.Goldenrod;
+            this.dtgv_TipoPrd.Location = new System.Drawing.Point(3, 56);
+            this.dtgv_TipoPrd.Name = "dtgv_TipoPrd";
+            this.dtgv_TipoPrd.RowHeadersWidth = 51;
+            this.dtgv_TipoPrd.RowTemplate.Height = 24;
+            this.dtgv_TipoPrd.Size = new System.Drawing.Size(419, 603);
+            this.dtgv_TipoPrd.TabIndex = 10;
             // 
             // TipoProducto
             // 
@@ -266,20 +273,21 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.OldLace;
             this.ClientSize = new System.Drawing.Size(1030, 685);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.dtgv_TipoPrd);
+            this.Controls.Add(this.btn_Eliminar);
+            this.Controls.Add(this.btn_Actualizar);
+            this.Controls.Add(this.btn_Agregar);
+            this.Controls.Add(this.lbl_Fecha);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_Volver);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Name = "TipoProducto";
             this.Text = "TipoProducto";
+            this.Load += new System.EventHandler(this.TipoProducto_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgv_TipoPrd)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -294,18 +302,18 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txt_NmProducto;
+        private System.Windows.Forms.ComboBox cbx_Categoria;
+        private System.Windows.Forms.Button btn_Limpiar;
+        private System.Windows.Forms.Button btn_Volver;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label lbl_Fecha;
+        private System.Windows.Forms.Button btn_Agregar;
+        private System.Windows.Forms.Button btn_Actualizar;
+        private System.Windows.Forms.Button btn_Eliminar;
+        private System.Windows.Forms.DataGridView dtgv_TipoPrd;
+        private System.Windows.Forms.DateTimePicker dpt_FechaM;
+        private System.Windows.Forms.DateTimePicker dtp_FechaR;
+        private System.Windows.Forms.TextBox txt_Stock;
     }
 }

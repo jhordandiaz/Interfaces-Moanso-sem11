@@ -16,5 +16,35 @@ namespace SistemaAlmacen
         {
             InitializeComponent();
         }
+
+        private void TipoProducto_Load(object sender, EventArgs e)
+        {
+            lbl_Fecha.Text = DateTime.Today.Date.ToString("d");
+        }
+
+        private void btn_Agregar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Actualizar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Eliminar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Limpiar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Volver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

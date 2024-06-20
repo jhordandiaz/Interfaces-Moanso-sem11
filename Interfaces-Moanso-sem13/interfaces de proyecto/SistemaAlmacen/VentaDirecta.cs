@@ -17,9 +17,35 @@ namespace SistemaAlmacen
             InitializeComponent();
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private void lbl_Precio_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void VentaDirecta_Load(object sender, EventArgs e)
+        {
+            lbl_Fecha.Text = DateTime.Today.Date.ToString("d");
+            lbl_Precio.Text = (0).ToString("C");
+        }
+
+        private void btn_Buscar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Registrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Anular_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Volver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }
