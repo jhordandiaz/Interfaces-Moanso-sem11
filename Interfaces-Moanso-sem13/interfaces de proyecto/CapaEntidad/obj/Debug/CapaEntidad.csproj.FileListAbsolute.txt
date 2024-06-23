@@ -1,6 +1,0 @@
-C:\Users\Usuario\Source\Repos\Interfaces-Moanso-sem11\Interfaces-Moanso-sem13\interfaces de proyecto\CapaEntidad\bin\Debug\CapaEntidad.dll
-C:\Users\Usuario\Source\Repos\Interfaces-Moanso-sem11\Interfaces-Moanso-sem13\interfaces de proyecto\CapaEntidad\bin\Debug\CapaEntidad.pdb
-C:\Users\Usuario\Source\Repos\Interfaces-Moanso-sem11\Interfaces-Moanso-sem13\interfaces de proyecto\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
-C:\Users\Usuario\Source\Repos\Interfaces-Moanso-sem11\Interfaces-Moanso-sem13\interfaces de proyecto\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\Source\Repos\Interfaces-Moanso-sem11\Interfaces-Moanso-sem13\interfaces de proyecto\CapaEntidad\obj\Debug\CapaEntidad.dll
-C:\Users\Usuario\Source\Repos\Interfaces-Moanso-sem11\Interfaces-Moanso-sem13\interfaces de proyecto\CapaEntidad\obj\Debug\CapaEntidad.pdb
